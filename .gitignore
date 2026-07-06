@@ -1,0 +1,23 @@
+# node_modules
+node_modules/
+
+# environments
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# build output
+dist/
+build/
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+
+# Prisma
+/backend/prisma/migrations/
+/backend/prisma/db.sqlite
+/backend/prisma/db.sqlite-journal
